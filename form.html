@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pixtory | Explore the history of your city on your mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+  
+    <!-- START BIT FOR DARCY -->
+
+    <form action="/" method="post">
+      <a href="#{SOURCEURL}"><img src="#{IMAGEURL}"></a>
+      <label>
+        Caption
+        <input type="text" name="caption" value="#{CAPTION}">
+      </label>
+      <label>
+        Description
+        <textarea name="description">#{DESCRIPTION}</textarea>
+      </label>
+      <label>
+        Date
+        <input type="text" name="date">
+      </label>
+      <label>
+        Address
+        <input type="text" name="address">
+      </label>
+    </form>
+
+    <!-- END DARCY BIT -->
+
+    </div>
+  </body>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>
