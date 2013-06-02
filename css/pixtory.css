@@ -7900,6 +7900,7 @@ a.badge:focus {
 }
 #logo {
   margin-left: 330px;
+  margin-top: 120px;
 }
 #hand {
   position: absolute;
@@ -7912,7 +7913,7 @@ form {
 }
 @media (max-width: 767px) {
   #logo {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     width: 90%;
   }
@@ -7920,6 +7921,6 @@ form {
     display: none;
   }
   form {
-    margin: 0;
+    margin: 0 auto;
   }
 }
