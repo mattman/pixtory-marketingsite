@@ -3,12 +3,16 @@
 
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 
+.offset3 {
+  margin-left: 330px;
+}
+
 h1, h2, h3, h4, h5, p {
   font-family: 'Bitter', serif;
 }
 
 #logo {
- margin-left: 330px;
+ .offset3;
  margin-top: 2%;
 }
 
@@ -18,8 +22,12 @@ h1, h2, h3, h4, h5, p {
 	bottom:0;
 }
 
+#copy {
+  .offset3;
+}
+
 form {
-  margin-left: 330px;
+  .offset3;
   margin-top: 100px;
 }
 
@@ -30,6 +38,11 @@ form {
     padding-top: 10px;
     text-align: center;
     width: 90%;
+  }
+  
+  #copy {
+    margin: 0 auto;
+    text-align: center;
   }
 
   #hand {

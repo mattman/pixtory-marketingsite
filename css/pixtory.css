@@ -7899,6 +7899,9 @@ a.badge:focus {
     overflow: visible !important;
   }
 }
+.offset3 {
+  margin-left: 330px;
+}
 h1,
 h2,
 h3,
@@ -7916,6 +7919,9 @@ p {
   left: 730px;
   bottom: 0;
 }
+#copy {
+  margin-left: 330px;
+}
 form {
   margin-left: 330px;
   margin-top: 100px;
@@ -7926,6 +7932,10 @@ form {
     padding-top: 10px;
     text-align: center;
     width: 90%;
+  }
+  #copy {
+    margin: 0 auto;
+    text-align: center;
   }
   #hand {
     display: none;
