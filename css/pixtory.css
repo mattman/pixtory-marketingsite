@@ -7998,4 +7998,12 @@ form {
   #moment {
     margin-left: 200px;
   }
+  #moment {
+    color: #FFF;
+    font-size: 1em;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+  }
 }
