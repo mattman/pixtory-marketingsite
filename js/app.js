@@ -5,7 +5,8 @@ $.backstretch("img/header-1.png");
 function getContent(){
 	moment = getParameterByName('moment');
 	loadMoment(moment,function(data){
-		$('h4').text(data.caption);
+		$('h4').text(data.location.name);
+		$('span').text(data.formatted_timestamp);
 		$('#moment-image').css("background-image", data.image.primary.url);
 	});
 }
