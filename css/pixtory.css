@@ -7970,12 +7970,9 @@ form {
     color: #FFF;
     font-size: 1em;
     background: rgba(0, 0, 0, 0.6);
-    border-radius: 5px;
     margin: 0 auto;
     text-align: center;
-  }
-  #moment img {
-    width: 90%;
+    width: 100%;
   }
   #moment #moment-image {
     width: 300px;
