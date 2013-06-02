@@ -3,7 +3,8 @@ $.backstretch("img/header-1.png");
 function getContent(){
 	moment = getParameterByName('moment');
 	loadMoment(moment,function(data){
-		console.log(data)
+		$('h4').text(data.caption);
+		$('#moment-image').attr("src", data.image.thumb.url);
 	});
 }
 
