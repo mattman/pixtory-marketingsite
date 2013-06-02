@@ -24,8 +24,3 @@ var loadMoment = function(momentID, callback) {
    callback(data.moment);
  });
 };
-
-$(document).ready({
-	if !$.browser.mobile
-		// AIzaSyBEmwGgp0EmmA5anuu0Zw_WhtWyWW7u34s
-})
