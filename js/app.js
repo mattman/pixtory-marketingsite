@@ -7,7 +7,8 @@ function getContent(){
 	loadMoment(moment,function(data){
 		$('h4').text(data.location.name);
 		$('span').text(data.formatted_timestamp);
-		$('#moment-image').css("background-image", data.image.primary.url);
+		$('#moment-image').css("background-image", 'url(' + data.image.primary.url + ')');
+		$('#oa').html('<a href="pixtory://moment/'+data.id+'"><img src="img/openinapp.png"></a>');
 	});
 }
 
