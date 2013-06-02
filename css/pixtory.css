@@ -7914,6 +7914,7 @@ form {
 @media (max-width: 767px) {
   #logo {
     margin: 0 auto;
+    padding-top: 10px;
     text-align: center;
     width: 90%;
   }
@@ -7921,6 +7922,7 @@ form {
     display: none;
   }
   form {
+    text-align: center;
     margin: 0 auto;
   }
 }
