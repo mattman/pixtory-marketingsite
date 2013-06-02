@@ -7931,9 +7931,14 @@ p {
   border-radius: 6px;
   text-align: center;
 }
+#copy a {
+  color: #bd1e2c;
+}
 #moment {
   margin-left: 330px;
   margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #moment-image {
   width: 300px;
