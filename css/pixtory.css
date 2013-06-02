@@ -7974,6 +7974,7 @@ form {
   #moment #moment-image {
     width: 300px;
     height: 300px;
+    border: solid 5px #FFF;
     background: url(img/placeholder.png) center center no-repeat;
     background-size: 100%;
   }
