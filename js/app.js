@@ -2,7 +2,9 @@ $.backstretch("img/header-1.png");
 
 function getContent(){
 	moment = getParameterByName('moment');
-	alert(moment);
+	loadMoment(moment,function(data){
+		alert(data);
+	});
 }
 
 function getParameterByName(name) {
