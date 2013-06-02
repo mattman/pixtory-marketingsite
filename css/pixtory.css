@@ -7921,6 +7921,8 @@ p {
 }
 #copy {
   margin-left: 330px;
+  margin-top: 30px;
+  font-size: 1.5em;
 }
 form {
   margin-left: 330px;
@@ -7936,6 +7938,7 @@ form {
   #copy {
     margin: 0 auto;
     text-align: center;
+    margin-top: 10px;
   }
   #hand {
     display: none;
