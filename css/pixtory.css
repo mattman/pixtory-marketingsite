@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700);
 /*!
  * Bootstrap v2.3.2
  *
@@ -7898,9 +7899,17 @@ a.badge:focus {
     overflow: visible !important;
   }
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: 'Bitter', serif;
+}
 #logo {
   margin-left: 330px;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 #hand {
   position: absolute;
