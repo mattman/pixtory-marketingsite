@@ -3,7 +3,7 @@ $.backstretch("img/header-1.png");
 function getContent(){
 	moment = getParameterByName('moment');
 	loadMoment(moment,function(data){
-		alert(obj.moment.caption);
+		alert(data.moment.caption);
 	});
 }
 
