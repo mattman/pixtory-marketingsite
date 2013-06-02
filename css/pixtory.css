@@ -7971,6 +7971,12 @@ form {
   #moment img {
     width: 90%;
   }
+  #moment #moment-image {
+    width: 300px;
+    height: 300px;
+    background: url(img/placeholder.png) center center no-repeat;
+    background-size: 100%;
+  }
   form {
     text-align: center;
     margin: 0 auto;
