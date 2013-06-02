@@ -7919,4 +7919,7 @@ form {
   #hand {
     display: none;
   }
+  form {
+    margin: 0;
+  }
 }
