@@ -7923,6 +7923,7 @@ p {
   margin-left: 330px;
   margin-top: 30px;
   font-size: 1.5em;
+  width: 340px;
 }
 form {
   margin-left: 330px;
@@ -7939,6 +7940,8 @@ form {
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
+    width: 302px;
+    font-size: 1.2em;
   }
   #hand {
     display: none;
