@@ -7946,7 +7946,7 @@ form {
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
-    padding: 8px 0 8px 0;
+    padding: 8px;
     color: #FFF;
     width: 280px;
     font-size: 1.2em;
@@ -7959,7 +7959,7 @@ form {
   form {
     text-align: center;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
